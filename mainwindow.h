@@ -13,6 +13,9 @@ class MainWindow : public QMainWindow
 
 private slots:
     void digitClicked();
+    void operations();
+    void Ravno();
+    void clear_all();
 
 public:
     MainWindow(QWidget *parent = nullptr);
